@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EncuestaDojo
+build_property.RootNamespace = EncuestaDojo
+build_property.ProjectDir = C:\Aplicaciones\Coding dojo\Clases\ASP.NET\EncuestaDojo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aplicaciones\Coding dojo\Clases\ASP.NET\EncuestaDojo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Principal/FormularioUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXEZvcm11bGFyaW9Vc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Principal/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Principal/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXFVzdWFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
