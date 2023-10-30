@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mi primera vista </title>
+        <link rel="stylesheet" href="~/css/styles.css">
+    </head>
+    <body>
+        <h1> @ViewBag.Titulo </h1>
+        <p> @ViewBag.Subtitulo </p>
+    
+   <h2>Registro de Usuario</h2>
+<form asp-action="AgregaUsuario" method="post">
+    <div class="form-group">
+        <label asp-for="nombre"></label>
+        <input asp-for="nombre" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="dojo"></label>
+        <select asp-for="dojo" asp-items="Html.GetEnumSelectList<DojoEnum>()" class="form-control" required>
+            <option value="">Selecciona una ubicación</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="lenguaje"></label>
+        <select asp-for="lenguaje" asp-items="Html.GetEnumSelectList<LenguajeEnum>()" class="form-control" required>
+            <option value="">Selecciona un lenguaje</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="comentario"></label>
+        <textarea asp-for="comentario" class="form-control" rows="7" cols="37"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Agregar
+    </button>
+</form>
+    </body>
+</html>

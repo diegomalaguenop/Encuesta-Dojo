@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aplicaciones\Coding dojo\Clases\ASP.NET\EncuestaDojo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Home/FormularioUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtdWxhcmlvVXN1YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Home/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aplicaciones/Coding dojo/Clases/ASP.NET/EncuestaDojo/Views/Principal/FormularioUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXEZvcm11bGFyaW9Vc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

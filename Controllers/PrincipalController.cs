@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProyectoPeliculas.Controllers;
+namespace FormularioUsuarios.Controllers;
 
 public class PrincipalController : Controller{
 
-    private static List<string> ListaUsuarios = new List<string>(){""};
+    private static List<string> ListaUsuarios = new List<string>();
 
     [HttpGet]
     [Route("")]
@@ -38,10 +38,19 @@ public class PrincipalController : Controller{
 
     [HttpPost]
     [Route("nuevo/usuario")]
-    public RedirectToActionResult AgregaUsuario(string Nombre, string Dojo){
-        ListaUsuarios.Add(Nombre);
-        ListaUsuarios.Add(Dojo);
+    public IActionResult AgregaUsuario(string nombre, string dojo, string lenguaje, string comentario)
+    {
+        ListaUsuarios.Add("Nombre: " + nombre);
+        ListaUsuarios.Add("Ubicación Dojo: " + dojo);
+        ListaUsuarios.Add("Lenguaje Favorito: " + lenguaje);
+        ListaUsuarios.Add("Comentario: " + comentario);
+
         return RedirectToAction("Usuarios");
+    }
+
+    public IActionResult Usuario()
+    {
+        return View();
     }
 
     [HttpGet]
